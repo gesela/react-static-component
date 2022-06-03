@@ -1,0 +1,66 @@
+.allParts{
+    height: 95vh;
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:3rem 3rem;
+    padding: 1rem;
+  }
+  body{
+    color:rgb(11, 11, 11);
+    font-size:1rem;
+    background-color:hsl(240, 19%, 95%);
+  }
+  .sideBar{
+    grid-column:1;
+    grid-row: 1/3;
+    background-color: #b1b5be;
+    border-radius:1.5rem;
+    
+  }
+  .sideBar-items{
+    height:40%;
+    margin-top:4rem;
+    padding-left:12%;
+    
+  }
+  .mainPart{
+    background-color: #b1b5be;
+    grid-column: 2/5;
+    font-size: 1rem;
+    border-radius:1.5rem;
+    /* margin: 25px 20px; */
+    padding: 2%;
+    /* background-image: url('/public/photos/website\ visitors.jpeg'); */
+   
+  }
+  .part1{
+    background-color: #b1b5be;
+    opacity:1;
+    font-size:1rem;
+    text-align:center;
+    border-radius:1.5rem;
+  }
+  .part2{
+    background-color: #b1b5be;
+    text-align:center;
+    font-size: 1rem;
+    border-radius:1.5rem;
+
+  }
+  .part3{
+    background-color: #b1b5be;
+    text-align:center;
+    font-size: 1rem;
+    border-radius:1.5rem;
+  }
+  .mainPartInside{
+    background-color: #bcbcc7;
+    height: 45%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    /* margin: 8rem 4rem; */
+    /* background-image: url('https://ahrefs.com/blog/wp-content/uploads/2018/08/interactive-graph-similar-web.gif'); */
+    border-radius:1.5rem;
+    /* box-shadow: 10px 10px rgba(255, 255, 255, 0.3); */
+  }
